@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projetos desenvolvidos pela Immortal Nimbus para nossos clientes.">
+  <title>Immortal Nimbus - Projetos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Immortal Nimbus Logo" class="logo">
+    <nav>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <ul>
+        <li><a href="index.html#about">Sobre</a></li>
+        <li><a href="projetos.html">Nossos Serviços</a></li>
+        <li><a href="index.html#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="projects" class="fade-in">
+      <h2>Nossos Projetos</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="img/fsite1.png" alt="Projeto 1">
+          <h3>Projeto 1: Loja de Roupas</h3>
+          <p><strong>Desafio:</strong> Um site desatualizado com baixa conversão.<br><strong>Solução:</strong> Redesign com layout responsivo e otimização de carrinho.<br><strong>Resultado:</strong> Aumento de 150% nas conversões.</p>
+          <a href="https://exemplo.com" class="project-link">Visitar Site</a>
+        </div>
+        <div class="project">
+          <img src="img/fsite2.png" alt="Projeto 2">
+          <h3>Projeto 2: Portfólio de Fotógrafo</h3>
+          <p><strong>Desafio:</strong> Galeria lenta e não otimizada.<br><strong>Solução:</strong> Implementação de galeria interativa com lazy loading.<br><strong>Resultado:</strong> Redução de 80% no tempo de carregamento.</p>
+          <a href="https://exemplo.com" class="project-link">Visitar Site</a>
+        </div>
+        <div class="project">
+          <img src="img/fsite3.png" alt="Projeto 3">
+          <h3>Projeto 3: E-commerce de Acessórios</h3>
+          <p><strong>Desafio:</strong> Dificuldade em integrar pagamentos.<br><strong>Solução:</strong> Configuração de gateway seguro e SEO otimizado.<br><strong>Resultado:</strong> Crescimento de 200% no tráfego.</p>
+          <a href="https://exemplo.com" class="project-link">Visitar Site</a>
+        </div>
+        <div class="project">
+          <img src="img/fsite4.png" alt="Projeto 4">
+          <h3>Projeto 4: Blog de Tecnologia</h3>
+          <p><strong>Desafio:</strong> Layout confuso em mobile.<br><strong>Solução:</strong> Redesign responsivo com integração social.<br><strong>Resultado:</strong> Engajamento 120% maior.</p>
+          <a href="https://exemplo.com" class="project-link">Visitar Site</a>
+        </div>
+      </div>
+      <h2>Antes e Depois</h2>
+      <div class="before-after">
+        <div class="before-after-item">
+          <div class="before-after-carousel">
+            <button class="ba-prev" aria-label="Slide anterior">❮</button>
+            <div class="ba-container">
+              <div class="ba-slide"><img src="img/fasite2.png" alt="Antes do Projeto 2"></div>
+              <div class="ba-slide"><img src="img/fsite2.png" alt="Depois do Projeto 2"></div>
+            </div>
+            <button class="ba-next" aria-label="Próximo slide">❯</button>
+            <div class="ba-dots"></div>
+          </div>
+        </div>
+        <div class="before-after-item">
+          <div class="before-after-carousel">
+            <button class="ba-prev" aria-label="Slide anterior">❮</button>
+            <div class="ba-container">
+              <div class="ba-slide"><img src="img/fasite4.png" alt="Antes do Projeto 4"></div>
+              <div class="ba-slide"><img src="img/fsite4.png" alt="Depois do Projeto 4"></div>
+            </div>
+            <button class="ba-next" aria-label="Próximo slide">❯</button>
+            <div class="ba-dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Immortal Nimbus | Todos os direitos reservados</p>
+  </footer>
+  <button id="back-to-top" aria-label="Voltar ao topo">↑</button>
+  <a href="https://wa.me/5511987328781?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Immortal%20Nimbus!" class="whatsapp-btn" aria-label="Entrar em contato via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <div id="confirmation-message" class="confirmation-message"></div>
+  <script src="script.js"></script>
